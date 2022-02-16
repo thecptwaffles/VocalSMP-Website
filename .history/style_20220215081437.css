@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Raleway:wght@200&display=swap');
+
+
+
+:root {
+    --prim-clr: #000000;
+    --sec-clr: #ec87e4;
+    --accent-clr: #d3fbd8;
+    --prim-font: 'Raleway', sans-serif;
+    --sec-font: 'Dongle', sans-serif;
+    background-color: var(--prim-clr);
+}
+
+h1,
+h2,
+a {
+    font-family: var(--prim-font);
+    text-align: center;
+    color: var(--accent-clr);
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.title {
+    text-decoration: underline;
+}
